@@ -1,20 +1,13 @@
 import logo from "./logo.svg";
-import "./App.css";
+import "./App.css"
+import Main from "./Main"
+import Header from "./Header"
 
 function App() {
   return (
     <div className="App">
-      <header>
-     <h1>Welcome to my website!</h1>
-     <nav>
-       <ul>
-         <li><a href="#">Home</a></li>
-         <li><a href="#">About</a></li>
-         <li><a href="#">Services</a></li>
-         <li><a href="#">Contact</a></li>
-       </ul>
-     </nav>
-   </header>
+     <Header/>
+     <Main/>
     </div>
   );
 }
